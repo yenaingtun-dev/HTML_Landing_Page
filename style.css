@@ -107,3 +107,125 @@
     margin-bottom: 5px;
     opacity: 1;
 }
+
+.about-section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.about-group-left {
+    display: flex;
+    position: relative;
+}
+
+.about-left-image {
+    width: 50rem;
+    height: 25rem;
+    object-position: center;
+}
+
+.about-group-left-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 40rem;
+    border: 2px solid goldenrod;
+    padding-top: 3rem;
+}
+
+.about-left-main-header {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    right: 225px;
+    top: 90px;
+    width: 100%;
+}
+
+.about-left-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.about-left-text {
+    width: 20rem;
+    padding-left: 2rem;
+    color: gray;
+    /* letter-spacing: 3px; */
+    line-height: 30px;
+}
+
+.about-group-right {
+    display: flex;
+    position: relative;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: gray;
+}
+
+.about-right-image {
+    width: 50rem;
+    height: 25rem;
+    margin-left: auto;
+    object-position: center;
+}
+
+.about-group-right-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    right: 500px;
+    width: 40rem;
+    border: 2px solid goldenrod;
+    padding-top: 3rem;
+}
+
+.about-right-top-header {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    letter-spacing: 10px;
+    color: lightgray;
+}
+
+.about-right-main-header {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 380px;
+    top: 90px;
+    width: 100%;
+}
+
+.about-right-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 100px;
+}
+
+.about-right-text {
+    width: 20rem;
+    padding-right: 2rem;
+    color: lightgray;
+    line-height: 30px;
+}

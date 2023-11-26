@@ -63,6 +63,12 @@
     background-color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: inherit !important;
+    }
+}
+
 /* hero */
 
 .hero-section {
@@ -119,6 +125,33 @@
     margin-right: 5px;
     margin-bottom: 5px;
     opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .hero-text-group {
+        margin: auto;
+    }
+    .hero-text {
+        font-weight: 500;
+        position: inherit;
+        text-align: center;
+    }
+    .hero-header {
+        position: inherit;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .hero-link {
+        position: inherit;
+    }
 }
 
 /* about */
@@ -243,6 +276,66 @@
     padding-right: 2rem;
     color: lightgray;
     line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-section {
+        margin-top: 4rem;
+    }
+    .about-group-left {
+        flex-direction: column;
+    }
+    .about-left-image {
+        width: 100%;
+    }
+    .about-group-left-text {
+        position: inherit;
+        top: 0;
+        left: 0;
+        display: block;
+        padding: 0;
+        border: 0;
+        text-align: center;
+    }
+    .about-left-main-header {
+        color: black;
+        position: inherit;
+        letter-spacing: 0;
+        font-size: 2rem;
+    }
+    .about-left-header {
+        color: black;
+        padding: 0;
+    }
+    .about-left-text {
+        width: 100%;
+    }
+    .about-group-right {
+        position: inherit;
+        display: block;
+        padding-top: 4rem;
+        padding-bottom: 0;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .about-right-top-header {
+        position: inherit;
+    }
+    .about-group-right-text {
+        position: inherit;
+        display: block;
+        border: 0;
+    }
+    .about-right-text {
+        width: 100%;
+        padding: 0;
+    }
+    .about-right-image {
+        width: 100%;
+    }
+    .about-right-header {
+        padding: 0;
+    }
 }
 
 /* collection */
@@ -517,6 +610,80 @@
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .collection-text {
+        position: inherit;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+    .first-collection {
+        display: block;
+    }
+    .first-collection-group {
+        position: inherit;
+    }
+    .first-collection-image-group {
+        padding: 20px;
+        display: block;
+    }
+    .first-collection-image {
+        width: 100%;
+        height: 30rem;
+    }
+    .first-collection-text-group {
+        position: inherit;
+    }
+    .first-collection-photo-group {
+        display: block;
+    }
+    .first-collection-photo-image-group {
+        position: inherit;
+        padding: 20px;
+    }
+    .first-collection-photo-text-group {
+        position: inherit;
+    }
+    .photo-small-image {
+        width: 100%;
+        height: 30rem;
+    }
+    .second-collection {
+        display: block;
+    }
+    .second-first-image-heading {
+        position: inherit;
+    }
+    .second-first-collection {
+        position: inherit;
+        display: block;
+        margin: 0;
+    }
+    .second-first-image-group {
+        display: block;
+        padding: 30px;
+    }
+    .second-first-image {
+        width: 100%;
+        height: 30rem;
+        border: 0;
+    }
+    .second-first-text-group {
+        width: 100%;
+    }
+    .second-second-collection {
+        display: block;
+        position: inherit;
+    }
+    .second-second-image-group {
+        display: block;
+    }
+    .second-second-image {
+        width: 100%;
+        height: 30rem;
+    }
+}
+
 /* image collection */
 
 .image-collection-group {
@@ -560,6 +727,19 @@
 .image-collection:hover {
     opacity: 0.3;
     filter: brightness(0.2);
+}
+
+@media only screen and (max-width: 600px) {
+    .image-collection-group {
+        display: block;
+        max-width: none;
+        margin: 0;
+        width: 100%;
+    }
+    .image-collection {
+        width: 100%;
+        height: 30rem;
+    }
 }
 
 /* footer */

@@ -293,9 +293,10 @@
         top: 0;
         left: 0;
         display: block;
-        padding: 0;
+        padding: 30px;
         border: 0;
         text-align: center;
+        width: 100%;
     }
     .about-left-main-header {
         color: black;
@@ -309,14 +310,16 @@
     }
     .about-left-text {
         width: 100%;
+        padding: 0;
     }
     .about-group-right {
         position: inherit;
         display: block;
         padding-top: 4rem;
         padding-bottom: 0;
-        margin-top: 4rem;
+        margin-top: 0;
         margin-bottom: 4rem;
+        text-align: center;
     }
     .about-right-top-header {
         position: inherit;
@@ -325,6 +328,8 @@
         position: inherit;
         display: block;
         border: 0;
+        width: 100%;
+        padding: 30px;
     }
     .about-right-text {
         width: 100%;
@@ -616,6 +621,7 @@
         width: 100%;
         top: 0;
         right: 0;
+        text-align: center;
     }
     .first-collection {
         display: block;
@@ -633,6 +639,7 @@
     }
     .first-collection-text-group {
         position: inherit;
+        width: 100%;
     }
     .first-collection-photo-group {
         display: block;
@@ -653,6 +660,7 @@
     }
     .second-first-image-heading {
         position: inherit;
+        text-align: center;
     }
     .second-first-collection {
         position: inherit;
@@ -667,9 +675,12 @@
         width: 100%;
         height: 30rem;
         border: 0;
+        padding: 10px;
     }
     .second-first-text-group {
         width: 100%;
+        padding: 30px;
+        text-align: center;
     }
     .second-second-collection {
         display: block;
@@ -681,6 +692,40 @@
     .second-second-image {
         width: 100%;
         height: 30rem;
+    }
+    .second-second-heading {
+        text-align: center;
+    }
+    .second-second-image-heading {
+        text-align: center;
+    }
+    .first-collection-heading {
+        text-align: center;
+    }
+    .first-collection-text-heading::before {
+        border: 0;
+    }
+    .first-collection-text-text {
+        width: 100%;
+        text-align: center;
+    }
+    .first-collection-photo-text-group {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .first-collection-photo-logo {
+        position: inherit;
+    }
+    .second-collection {
+        margin-top: 30rem;
+    }
+    .first-collection-photo-heading::before {
+        border: 0;
+    }
+    .first-collection-photo-image-group::before {
+        border: 0;
     }
 }
 
@@ -731,14 +776,16 @@
 
 @media only screen and (max-width: 600px) {
     .image-collection-group {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         max-width: none;
         margin: 0;
+        justify-content: center;
         width: 100%;
     }
     .image-collection {
         width: 100%;
-        height: 30rem;
+        height: 13rem;
     }
 }
 

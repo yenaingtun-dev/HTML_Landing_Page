@@ -14,8 +14,18 @@
     z-index: 9999999;
 }
 
+.navbar-logo {
+    width: 7rem;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+}
+
 .navbar-brand {
-    text-transform: uppercase;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: bisque;
 }
 
 .navbar-nav {
@@ -800,7 +810,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10rem;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 .footer-logo-group {
@@ -815,6 +825,7 @@
 
 .footer-logo {
     font-size: 29px;
+    width: 100px;
 }
 
 .footer-copyright {

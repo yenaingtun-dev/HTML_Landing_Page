@@ -59,6 +59,10 @@
     opacity: 1;
 }
 
+.nav-active {
+    background-color: white;
+}
+
 /* hero */
 
 .hero-section {
@@ -90,7 +94,7 @@
     position: absolute;
     top: 250px;
     left: 260px;
-    z-index: 9999;
+    z-index: 1;
     font-size: 40px;
     letter-spacing: 15px;
     text-transform: uppercase;
@@ -535,7 +539,8 @@
     height: 80%;
     font-size: 12px;
     position: absolute;
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
     transition: 0.5s ease;
 }
 

@@ -259,7 +259,7 @@
 }
 
 .collection-text {
-    background-color: gray;
+    background-color: beige;
     padding: 3px;
     width: 30%;
     position: absolute;
@@ -328,23 +328,43 @@
 
 .first-collection-text-heading {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: bold;
     background-color: lightgray;
     padding: 5px;
     text-align: center;
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 
 .first-collection-text-heading::before {
     content: "";
     position: absolute;
     top: -90px;
-    right: 280px;
+    right: 400px;
     bottom: 0;
     height: 80px;
     border-left: 2px solid #333;
+}
+
+.first-collection-text-text {
+    color: gray;
+    width: 15rem;
+    margin-left: auto;
+}
+
+.first-collection-text-link {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+}
+
+.first-collection-text-link:hover {
+    color: gray;
 }
 
 /* footer */

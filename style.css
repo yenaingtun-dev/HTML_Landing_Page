@@ -289,6 +289,10 @@
 
 .first-collection {
     display: flex;
+}
+
+.first-collection-group {
+    display: flex;
     flex-direction: column;
     position: relative;
 }
@@ -314,15 +318,15 @@
 }
 
 .first-collection-image {
-    width: 30%;
+    width: 20rem;
     height: 25rem;
-    padding: 10px;
+    padding: 20px;
 }
 
 .first-collection-text-group {
     position: absolute;
     top: 500px;
-    left: 200px;
+    left: 100px;
     width: 30rem;
 }
 
@@ -365,6 +369,68 @@
 
 .first-collection-text-link:hover {
     color: gray;
+}
+
+.first-collection-photo-group {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    height: 45rem;
+}
+
+.first-collection-photo-text-group {
+    width: 25rem;
+    top: 280px;
+    padding-left: 4rem;
+    position: absolute;
+}
+
+.first-collection-photo-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.first-collection-photo-heading::before {
+    content: "";
+    position: absolute;
+    top: -45px;
+    right: 310px;
+    bottom: 0;
+    height: 40px;
+    border-left: 2px solid #333;
+}
+
+.first-collection-photo-text {
+    font-size: 14px;
+    color: gray;
+}
+
+.first-collection-photo-logo {
+    position: absolute;
+    right: 10px;
+}
+
+.photo-small-image {
+    width: 15rem;
+    height: 20rem;
+    border: 15px solid white;
+}
+
+.first-collection-photo-image-group {
+    position: absolute;
+    right: 65px;
+    bottom: 0px;
+}
+
+.first-collection-photo-image-group::before {
+    content: "";
+    position: absolute;
+    top: -85px;
+    right: 350px;
+    bottom: 0;
+    height: 100px;
+    border-left: 2px solid #333;
 }
 
 /* footer */

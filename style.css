@@ -513,6 +513,50 @@
     margin-top: 20px;
 }
 
+/* image collection */
+
+.image-collection-group {
+    max-width: 72rem;
+    padding-top: 4rem;
+    margin-left: 50px;
+    display: flex;
+    width: 50rem;
+}
+
+.image-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-group-svg {
+    width: 30%;
+    height: 80%;
+    font-size: 12px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.image-collection {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.image-group-svg:hover {
+    opacity: 1;
+}
+
+.image-collection:hover {
+    opacity: 0.3;
+    filter: brightness(0.2);
+}
+
 /* footer */
 
 #footer {
